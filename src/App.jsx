@@ -8,6 +8,53 @@ export default () => (
     <Header/>
     <div id="content" class="container px-20">                               
 
+    <img className="mb-3" src="/images/main.jpg" />
+
+    <h2 className="font-bold text-2xl">Biography </h2>
+
+<table className="my-10 w-full border" border="2">
+    <tr>
+      <th className="border-2 border-black bg-blue-100">Name</th>
+      <th classname="text-left border-2 border-black px-10 bg-gray-300">Wasi Arman Mostafa</th>
+    </tr>
+    <tr>
+      <th className="border-2 border-black bg-blue-100">Born</th>
+      <th classname="text-left border-2 border-black px-10 bg-gray-300">24 January 2004</th>
+    </tr>
+    <tr>
+      <th className="border-2 border-black bg-blue-100">Nickname</th>
+      <th classname="text-left border-2 border-black px-10 bg-gray-300">Ohi</th>
+    </tr>
+    <tr>
+      <th className="border-2 border-black bg-blue-100">Religion</th>
+      <th classname="text-left border-2 border-black px-10 bg-gray-300">Islam</th>
+    </tr>
+    <tr>
+      <th className="border-2 border-black bg-blue-100">Denomination</th>
+      <th classname="text-left border-2 border-black px-10 bg-gray-300">Sunni</th>
+    </tr>
+    <tr>
+      <th className="border-2 border-black bg-blue-100">Jurisprudence</th>
+      <th classname="text-left border-2 border-black px-10 bg-gray-300">Hanafi</th>
+    </tr>
+    <tr>
+      <th className="border-2 border-black bg-blue-100">Height</th>
+      <th classname="text-left border-2 border-black px-10 bg-gray-300">5'9"</th>
+    </tr>
+    <tr>
+      <th className="border-2 border-black bg-blue-100">Awards</th>
+      <th classname="text-left border-2 border-black px-10 bg-gray-300">President Scout Award</th>
+    </tr>
+    <tr>
+      <th className="border-2 border-black bg-blue-100">Main Interests</th>
+      <th classname="text-left border-2 border-black px-10 bg-gray-300">Islamic Movement, Cricket, Football, Scouting, Writing, Social Works.</th>
+    </tr>
+    <tr>
+      <th className="border-2 border-black bg-blue-100">Favorite Islamic Scholars</th>
+      <th classname="text-left border-2 border-black px-10 bg-gray-300">Mamunul Haque, Mizanur Rahman Azhari, Tariq Jamil, Dr. Anayetullah Abbasi, Moniruzzaman Selim, Abu Taw-ha Mohammad Adnan, Sayed Mokarram Bari.</th>
+    </tr>
+  </table>
+
 <h2 className="font-bold text-2xl">Photos</h2>
 <Gallery links={[
   ["/images/main/DSC_1525.jpg", "Wasi", "", ""],
@@ -15,51 +62,6 @@ export default () => (
   ["/images/main/IMG-20230615-WA0021.jpg", "Wasi", "", ""],
   ["/images/main/IMG20230325155146.jpg", "Wasi", "", ""],
 ]} />
-
-<h2 className="font-bold text-2xl">Biography </h2>
-
-<table className="my-10 w-full border">
-    <tr>
-      <th className="bg-blue-100">Name</th>
-      <td classname="px-10 bg-gray-300">Wasi Arman Mostafa</td>
-    </tr>
-    <tr>
-      <th className="bg-blue-100">Born</th>
-      <td classname="px-10 bg-gray-300">24 January 2004</td>
-    </tr>
-    <tr>
-      <th className="bg-blue-100">Nickname</th>
-      <td classname="px-10 bg-gray-300">Ohi</td>
-    </tr>
-    <tr>
-      <th className="bg-blue-100">Religion</th>
-      <td classname="px-10 bg-gray-300">Islam</td>
-    </tr>
-    <tr>
-      <th className="bg-blue-100">Denomination</th>
-      <td classname="px-10 bg-gray-300">Sunni</td>
-    </tr>
-    <tr>
-      <th className="bg-blue-100">Jurisprudence</th>
-      <td classname="px-10 bg-gray-300">Hanafi</td>
-    </tr>
-    <tr>
-      <th className="bg-blue-100">Height</th>
-      <td classname="px-10 bg-gray-300">5'9"</td>
-    </tr>
-    <tr>
-      <th className="bg-blue-100">Awards</th>
-      <td classname="px-10 bg-gray-300">President Scout Award</td>
-    </tr>
-    <tr>
-      <th className="bg-blue-100">Main Interests</th>
-      <td classname="px-10 bg-gray-300">Islamic Movement, Cricket, Football, Scouting, Writing, Social Works.</td>
-    </tr>
-    <tr>
-      <th className="bg-blue-100">Favorite Islamic Scholars</th>
-      <td classname="px-10 bg-gray-300">Mamunul Haque, Mizanur Rahman Azhari, Tariq Jamil, Dr. Anayetullah Abbasi, Moniruzzaman Selim, Abu Taw-ha Mohammad Adnan, Sayed Mokarram Bari.</td>
-    </tr>
-  </table>
 
 
 
@@ -75,7 +77,6 @@ Member of "Association Of Top Achievers Scouts - Bangladesh" (ATAS BD). Membersh
   ["/images/scouting/7b30a87a.jpg", "Wasi", "", ""],
   ["/images/scouting/DSC_1525.jpg", "Wasi", "", ""],
   ["/images/scouting/FB_IMG_1566724156047.jpg", "Wasi", "", ""],
-  ["/images/scouting/FB_IMG_1566724156047.jpg", "Wasi", "", ""],
   ["/images/scouting/IMG-20230129-WA0013.jpg", "Wasi", "", ""],
   ["/images/scouting/IMG-20230209-WA0002.jpg", "Wasi", "", ""],
 ]} />
@@ -87,7 +88,6 @@ Member of "Association Of Top Achievers Scouts - Bangladesh" (ATAS BD). Membersh
 <p>In 2018-2019 played as a defender & Mid-Fielder in "Adamjee Cantonment Public School-Inter House Annual Football Competition".</p>
 
 <Gallery links={[
-  ["/images/football/FB_IMG_1569638058878.jpg", "", "", ""],
   ["/images/football/received_384594492216451.jpeg", "", "", ""],
   ["/images/football/received_613208062540116.jpeg", "", "", ""],
 ]} />
@@ -98,15 +98,15 @@ Member of "Association Of Top Achievers Scouts - Bangladesh" (ATAS BD). Membersh
 <table className="border my-10">
   <tr>
     <th className="text-left bg-blue-100">Team</th>
-    <td>Aswad Sports Cricket Academy, Bangladesh</td>
+    <th>Aswad Sports Cricket Academy, Bangladesh</th>
   </tr>
   <tr>
     <th className="text-left bg-blue-100">Batting Style</th>
-    <td>Right Handed</td>
+    <th>Right Handed</th>
   </tr>
   <tr>
     <th className="text-left bg-blue-100">Bowling Style</th>
-    <td>Right Arm Off-Break</td>
+    <th>Right Arm Off-Break</th>
   </tr>
 </table>
 
@@ -172,8 +172,6 @@ Member of "Association Of Top Achievers Scouts - Bangladesh" (ATAS BD). Membersh
   ["/images/cocurriculumn/DSC_6790 (1).jpg", "", "", ""],
   ["/images/cocurriculumn/FB_IMG_1553681225393.jpg", "", "", ""],
   ["/images/cocurriculumn/FB_IMG_1553876218473.jpg", "", "", ""],
-  ["/images/cocurriculumn/FB_IMG_1690135937223.jpg", "", "", ""],
-  ["/images/cocurriculumn/IMG_6389.JPG", "", "", ""],
   ["/images/cocurriculumn/IMG_20191018_084258.jpg", "", "", ""],
   ["/images/cocurriculumn/IMG_20220308_134354.jpg", "", "", ""],
   ["/images/cocurriculumn/IMG-20220820-WA0011.jpg", "", "", ""],
@@ -182,10 +180,8 @@ Member of "Association Of Top Achievers Scouts - Bangladesh" (ATAS BD). Membersh
   ["/images/cocurriculumn/IMG-20221218-WA0063.jpg", "", "", ""],
   ["/images/cocurriculumn/IMG-20221219-WA0038.jpg", "", "", ""],
   ["/images/cocurriculumn/IMG-20230321-WA0026.jpg", "", "", ""],
-  ["/images/cocurriculumn/IMG-20230321-WA0028.jpg", "", "", ""],
   ["/images/cocurriculumn/IMG-20230615-WA0007.jpg", "", "", ""],
   ["/images/cocurriculumn/IMG-20230615-WA0021.jpg", "", "", ""],
-  ["/images/cocurriculumn/IMG-20230615-WA0022.jpg", "", "", ""],
   ["/images/cocurriculumn/IMG-20230623-WA0005.jpg", "", "", ""],
   ["/images/cocurriculumn/received_355136156457701.jpeg", "", "", ""],
 ]} />
