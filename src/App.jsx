@@ -10,10 +10,10 @@ export default () => (
 
 <h2 className="font-bold text-2xl">Photos</h2>
 <Gallery links={[
-  ["src/images/main/DSC_1525.jpg", "Wasi", "", ""],
-  ["src/images/main/IMG-20221223-WA0127.jpg", "Wasi", "", ""],
-  ["src/images/main/IMG-20230615-WA0021.jpg", "Wasi", "", ""],
-  ["src/images/main/IMG20230325155146.jpg", "Wasi", "", ""],
+  ["/images/main/DSC_1525.jpg", "Wasi", "", ""],
+  ["/images/main/IMG-20221223-WA0127.jpg", "Wasi", "", ""],
+  ["/images/main/IMG-20230615-WA0021.jpg", "Wasi", "", ""],
+  ["/images/main/IMG20230325155146.jpg", "Wasi", "", ""],
 ]} />
 
 <h2 className="font-bold text-2xl">Biography </h2>
@@ -71,13 +71,13 @@ Member of "Association Of Top Achievers Scouts - Bangladesh" (ATAS BD). Membersh
 
 
 <Gallery links={[
-  ["src/images/scouting/IMG_20200228_120753.jpg", "Wasi", "", ""],
-  ["src/images/scouting/7b30a87a.jpg", "Wasi", "", ""],
-  ["src/images/scouting/DSC_1525.jpg", "Wasi", "", ""],
-  ["src/images/scouting/FB_IMG_1566724156047.jpg", "Wasi", "", ""],
-  ["src/images/scouting/FB_IMG_1566724156047.jpg", "Wasi", "", ""],
-  ["src/images/scouting/IMG-20230129-WA0013.jpg", "Wasi", "", ""],
-  ["src/images/scouting/IMG-20230209-WA0002.jpg", "Wasi", "", ""],
+  ["/images/scouting/IMG_20200228_120753.jpg", "Wasi", "", ""],
+  ["/images/scouting/7b30a87a.jpg", "Wasi", "", ""],
+  ["/images/scouting/DSC_1525.jpg", "Wasi", "", ""],
+  ["/images/scouting/FB_IMG_1566724156047.jpg", "Wasi", "", ""],
+  ["/images/scouting/FB_IMG_1566724156047.jpg", "Wasi", "", ""],
+  ["/images/scouting/IMG-20230129-WA0013.jpg", "Wasi", "", ""],
+  ["/images/scouting/IMG-20230209-WA0002.jpg", "Wasi", "", ""],
 ]} />
 
 
@@ -87,9 +87,9 @@ Member of "Association Of Top Achievers Scouts - Bangladesh" (ATAS BD). Membersh
 <p>In 2018-2019 played as a defender & Mid-Fielder in "Adamjee Cantonment Public School-Inter House Annual Football Competition".</p>
 
 <Gallery links={[
-  ["src/images/football/FB_IMG_1569638058878.jpg", "", "", ""],
-  ["src/images/football/received_384594492216451.jpeg", "", "", ""],
-  ["src/images/football/received_613208062540116.jpeg", "", "", ""],
+  ["/images/football/FB_IMG_1569638058878.jpg", "", "", ""],
+  ["/images/football/received_384594492216451.jpeg", "", "", ""],
+  ["/images/football/received_613208062540116.jpeg", "", "", ""],
 ]} />
 
 
@@ -124,24 +124,24 @@ Member of "Association Of Top Achievers Scouts - Bangladesh" (ATAS BD). Membersh
 
 
 <Gallery links={[
-  ["src/images/cricket/FB_IMG_1647791072602.jpg", "", "", ""],
-  ["src/images/cricket/IMG_20220308_114942.jpg", "", "", ""],
-  ["src/images/cricket/IMG_20220308_134357.jpg", "", "", ""],
-  ["src/images/cricket/IMG_20220523_110917.jpg", "", "", ""],
-  ["src/images/cricket/IMG-20220820-WA0015.jpg", "", "", ""],
-  ["src/images/cricket/IMG-20220910-WA0002.jpg", "", "", ""],
-  ["src/images/cricket/IMG-20220917-WA0000.jpg", "", "", ""],
-  ["src/images/cricket/IMG-20220925-WA0001.jpg", "", "", ""],
-  ["src/images/cricket/IMG-20221219-WA0041.jpg", "", "", ""],
-  ["src/images/cricket/IMG-20221221-WA0064.jpg", "", "", ""],
-  ["src/images/cricket/IMG-20221225-WA0042.jpg", "", "", ""],
-  ["src/images/cricket/IMG-20221225-WA0054.jpg", "", "", ""],
-  ["src/images/cricket/received_298488798514420.jpeg", "", "", ""],
-  ["src/images/cricket/received_772800450493571.jpeg", "", "", ""],
-  ["src/images/cricket/received_799106374570672.jpeg", "", "", ""],
-  ["src/images/cricket/received_1105008507074085.jpeg", "", "", ""],
-  ["src/images/cricket/received_1115769589177958.jpeg", "", "", ""],
-  ["src/images/cricket/received_1742059092953220.jpeg", "", "", ""],
+  ["/images/cricket/FB_IMG_1647791072602.jpg", "", "", ""],
+  ["/images/cricket/IMG_20220308_114942.jpg", "", "", ""],
+  ["/images/cricket/IMG_20220308_134357.jpg", "", "", ""],
+  ["/images/cricket/IMG_20220523_110917.jpg", "", "", ""],
+  ["/images/cricket/IMG-20220820-WA0015.jpg", "", "", ""],
+  ["/images/cricket/IMG-20220910-WA0002.jpg", "", "", ""],
+  ["/images/cricket/IMG-20220917-WA0000.jpg", "", "", ""],
+  ["/images/cricket/IMG-20220925-WA0001.jpg", "", "", ""],
+  ["/images/cricket/IMG-20221219-WA0041.jpg", "", "", ""],
+  ["/images/cricket/IMG-20221221-WA0064.jpg", "", "", ""],
+  ["/images/cricket/IMG-20221225-WA0042.jpg", "", "", ""],
+  ["/images/cricket/IMG-20221225-WA0054.jpg", "", "", ""],
+  ["/images/cricket/received_298488798514420.jpeg", "", "", ""],
+  ["/images/cricket/received_772800450493571.jpeg", "", "", ""],
+  ["/images/cricket/received_799106374570672.jpeg", "", "", ""],
+  ["/images/cricket/received_1105008507074085.jpeg", "", "", ""],
+  ["/images/cricket/received_1115769589177958.jpeg", "", "", ""],
+  ["/images/cricket/received_1742059092953220.jpeg", "", "", ""],
 ]} />
 
 
@@ -168,26 +168,26 @@ Member of "Association Of Top Achievers Scouts - Bangladesh" (ATAS BD). Membersh
 
 
 <Gallery links={[
-  ["src/images/cocurriculumn/DSC_1523.jpg", "", "", ""],
-  ["src/images/cocurriculumn/DSC_6790 (1).jpg", "", "", ""],
-  ["src/images/cocurriculumn/FB_IMG_1553681225393.jpg", "", "", ""],
-  ["src/images/cocurriculumn/FB_IMG_1553876218473.jpg", "", "", ""],
-  ["src/images/cocurriculumn/FB_IMG_1690135937223.jpg", "", "", ""],
-  ["src/images/cocurriculumn/IMG_6389.JPG", "", "", ""],
-  ["src/images/cocurriculumn/IMG_20191018_084258.jpg", "", "", ""],
-  ["src/images/cocurriculumn/IMG_20220308_134354.jpg", "", "", ""],
-  ["src/images/cocurriculumn/IMG-20220820-WA0011.jpg", "", "", ""],
-  ["src/images/cocurriculumn/IMG-20221030-WA0003.jpg", "", "", ""],
-  ["src/images/cocurriculumn/IMG-20221218-WA0045.jpg", "", "", ""],
-  ["src/images/cocurriculumn/IMG-20221218-WA0063.jpg", "", "", ""],
-  ["src/images/cocurriculumn/IMG-20221219-WA0038.jpg", "", "", ""],
-  ["src/images/cocurriculumn/IMG-20230321-WA0026.jpg", "", "", ""],
-  ["src/images/cocurriculumn/IMG-20230321-WA0028.jpg", "", "", ""],
-  ["src/images/cocurriculumn/IMG-20230615-WA0007.jpg", "", "", ""],
-  ["src/images/cocurriculumn/IMG-20230615-WA0021.jpg", "", "", ""],
-  ["src/images/cocurriculumn/IMG-20230615-WA0022.jpg", "", "", ""],
-  ["src/images/cocurriculumn/IMG-20230623-WA0005.jpg", "", "", ""],
-  ["src/images/cocurriculumn/received_355136156457701.jpeg", "", "", ""],
+  ["/images/cocurriculumn/DSC_1523.jpg", "", "", ""],
+  ["/images/cocurriculumn/DSC_6790 (1).jpg", "", "", ""],
+  ["/images/cocurriculumn/FB_IMG_1553681225393.jpg", "", "", ""],
+  ["/images/cocurriculumn/FB_IMG_1553876218473.jpg", "", "", ""],
+  ["/images/cocurriculumn/FB_IMG_1690135937223.jpg", "", "", ""],
+  ["/images/cocurriculumn/IMG_6389.JPG", "", "", ""],
+  ["/images/cocurriculumn/IMG_20191018_084258.jpg", "", "", ""],
+  ["/images/cocurriculumn/IMG_20220308_134354.jpg", "", "", ""],
+  ["/images/cocurriculumn/IMG-20220820-WA0011.jpg", "", "", ""],
+  ["/images/cocurriculumn/IMG-20221030-WA0003.jpg", "", "", ""],
+  ["/images/cocurriculumn/IMG-20221218-WA0045.jpg", "", "", ""],
+  ["/images/cocurriculumn/IMG-20221218-WA0063.jpg", "", "", ""],
+  ["/images/cocurriculumn/IMG-20221219-WA0038.jpg", "", "", ""],
+  ["/images/cocurriculumn/IMG-20230321-WA0026.jpg", "", "", ""],
+  ["/images/cocurriculumn/IMG-20230321-WA0028.jpg", "", "", ""],
+  ["/images/cocurriculumn/IMG-20230615-WA0007.jpg", "", "", ""],
+  ["/images/cocurriculumn/IMG-20230615-WA0021.jpg", "", "", ""],
+  ["/images/cocurriculumn/IMG-20230615-WA0022.jpg", "", "", ""],
+  ["/images/cocurriculumn/IMG-20230623-WA0005.jpg", "", "", ""],
+  ["/images/cocurriculumn/received_355136156457701.jpeg", "", "", ""],
 ]} />
 
     </div>
@@ -214,7 +214,7 @@ Member of "Association Of Top Achievers Scouts - Bangladesh" (ATAS BD). Membersh
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 id="sponsor" class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SPONOSOR</h2>
         <nav class="list-none mb-10">
-        <img src="src/sponsor/FB_IMG_1690135937223.jpg" />
+        <img src="/sponsor/FB_IMG_1690135937223.jpg" />
         Arafin Sports Shop Limited
                   <br/>Buy cricket products at best prices from <a className="font-medium underline hover:text-blue-300" href="https://www.facebook.com/allproducts.sports.shop.bd?mibextid=ZbWKwL">here</a>
         </nav>
