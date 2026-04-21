@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "",
   "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "start": "vite",
     "preview": "vite preview",
